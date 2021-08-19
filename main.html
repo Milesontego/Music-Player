@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="main-section">
+        <div class="container">
+            <div class="row p-5">
+                <div class="col-4"></div>
+                <div class="col-lg-4 p-4 player_box">
+                    <img class="album-img img-fluid" src="img/song1.jpg" alt="">
+                    <div class="music_info">
+                            <h4 id="title">Timelade Interlude</h4>
+                            <!-- <h4 class="artist">Tems</h4> -->
+                    </div>
+                    <audio src="songs/song1.mp3" id="audio"></audio>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+
+                    <div class="icon-box d-flex justify-content-center my-5">
+                        <button id="prev">
+                            <svg class="prev_icon icon">
+                                <use xlink:href="img/sprint.svg#icon-backward"></use>
+                            </svg> 
+                        </button>
+                        <button id="play" class=" play">
+                            <svg class="play_icon icon mx-4">
+                                <use xlink:href="img/sprint.svg#icon-play2"></use>
+                            </svg> 
+                        </button>
+                        <button id="next">
+                            <svg class="next_icon icon">
+                                <use xlink:href="img/sprint.svg#icon-forward2"></use>
+                            </svg> 
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
+
+
+<!-- if the id is play do add the lass play now else set the id to puase -->

@@ -1,0 +1,74 @@
+/* color1: #211918 */
+/* color2:  #63302a*/
+/* text color:  #dbc6c3*/
+/* icon colors: #736563 */
+/* fonts:  font-family: 'Righteous', cursive*/
+.main-section{
+    font-family:'Righteous', cursive;
+    background:url(../img/ba4.jpg);
+    background-size: cover;
+    background-position:center;
+    padding-bottom: 8rem;
+    /* background: linear-gradient(#211918,#63302a ); */
+}
+.player_box{
+    border-radius: 1rem;
+    /* background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.4)), url(../img/ba2.jpg); */
+    background: url(../img/ba2.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+/* album image */
+.album-img{
+    border-radius: .5rem;
+}
+#title{
+    text-align: center;
+    font-size: 1.5em;
+    color: #141414;
+    padding-top: 1rem;
+}
+.song-name{
+    text-align: center;
+    font-size: 1rem;
+    color: #141414;
+    padding-top: 1rem;
+}
+.progress-bar{
+    background: #c5c5c5;
+    height: .4rem;
+    margin: 1rem .1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.progress{
+    height: 100%;
+    width: 0;
+    background:#fc501b;
+    border-radius: 5rem;
+    transition: width 0.1s;
+    border-right: .2rem solid black;
+}
+.icon-box{
+    
+}
+button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.icon{
+    width: 3rem;
+    height: 3rem;
+    fill: #1a1919;
+    transition: .5s;
+}
+.icon:hover{
+    fill: #000000;
+    transform: scale(1.2);
+}
+.icon:active{
+    fill: #0c0c0c;
+    transform: scale(1);
+}
